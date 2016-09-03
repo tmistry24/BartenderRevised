@@ -1,0 +1,30 @@
+﻿@model BartenderRevised.Models.Brand
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Brand</legend>
+
+    <div class="display-label">DrinkType</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DrinkType.Name)
+    </div>
+
+    <div class="display-label">Title</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">Price</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Price)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.BrandID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

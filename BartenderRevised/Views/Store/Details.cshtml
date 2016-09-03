@@ -1,0 +1,14 @@
+﻿@model BartenderRevised.Models.Brand
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Brand: @Model.Title</h2>
+
+<div id="drink-details">
+    <p><em>Drink Type:</em>@Model.DrinkType.Name</p>
+    <p><em>Price:</em>@String.Format("{0:F}",Model.Price)
+    </p><p class="button">@Html.ActionLink("Add to cart", "AddToCart", "ShoppingCart", new { id = Model.BrandID }, "")
+    </p>
+</div>

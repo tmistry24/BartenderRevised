@@ -1,0 +1,16 @@
+﻿@model BartenderRevised.Models.DrinkType
+
+@{
+    ViewBag.Title = "Browse";
+}
+
+<h2>Browsing Drink Type: @Model.Name</h2>
+
+<ul>
+    @foreach (var brand in Model.Brands)
+    {
+        <li>
+            @Html.ActionLink(brand.Title, "Details", new { id = brand.BrandID })
+        </li>
+    }
+</ul>

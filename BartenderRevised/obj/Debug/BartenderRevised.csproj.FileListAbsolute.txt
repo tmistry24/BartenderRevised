@@ -1,0 +1,7 @@
+c:\users\tejas\documents\visual studio 2010\Projects\BartenderRevised\BartenderRevised\bin\BartenderRevised.dll
+c:\users\tejas\documents\visual studio 2010\Projects\BartenderRevised\BartenderRevised\bin\BartenderRevised.pdb
+c:\users\tejas\documents\visual studio 2010\Projects\BartenderRevised\BartenderRevised\bin\EntityFramework.dll
+c:\users\tejas\documents\visual studio 2010\Projects\BartenderRevised\BartenderRevised\bin\EntityFramework.xml
+c:\users\tejas\documents\visual studio 2010\Projects\BartenderRevised\BartenderRevised\obj\Debug\BartenderRevised.csprojResolveAssemblyReference.cache
+c:\users\tejas\documents\visual studio 2010\Projects\BartenderRevised\BartenderRevised\obj\Debug\BartenderRevised.dll
+c:\users\tejas\documents\visual studio 2010\Projects\BartenderRevised\BartenderRevised\obj\Debug\BartenderRevised.pdb

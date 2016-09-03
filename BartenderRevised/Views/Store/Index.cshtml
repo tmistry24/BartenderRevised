@@ -1,0 +1,16 @@
+﻿@model IEnumerable<BartenderRevised.Models.DrinkType>
+
+@{
+    ViewBag.Title = "Store";
+}
+
+<h3>Browse Drink Types</h3>
+
+<p>Select from @Model.Count() drink types:</p>
+
+<ul>
+    @foreach (var type in Model)
+    {
+        <li>@Html.ActionLink(type.Name, "Browse", new { type = type.Name })</li>
+    }
+</ul>
